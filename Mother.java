@@ -3,10 +3,11 @@ public class Mother
     public static void main(String... args)
     {
 
-        Daughter.name();
+        String name = Daughter.name();
         Daughter db = new Daughter();
         String surName=db.surName();
-        System.out.println(surName);
+        System.out.print(surName);
+        System.out.print(name);
     }
 }
  class Daughter
